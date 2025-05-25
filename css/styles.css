@@ -63,6 +63,10 @@
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  width: 1440;
+  height: 600;
+  top: 72px;
+
 }
 
 .hero-title {
@@ -71,6 +75,10 @@
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496;
+  height: 120;
+  top: 260px;
+  left: 472px;
 }
 
 .main-button {
@@ -82,6 +90,16 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  width: 169;
+  height: 56;
+  top: 428px;
+  left: 636px;
+  gap: 10px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
 }
 
 .main-button:hover,
@@ -95,6 +113,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 20px;
 }
 
 .feature-text {
@@ -102,10 +121,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 20px;
 }
 
 .team {
   background-color: #f4f4fd;
+  width: 1440;
+  height: 732;
+  top: 1016px;
 }
 
 .section-title {
@@ -116,6 +139,11 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 20px;
+  width: 162;
+  height: 40;
+  top: 1136px;
+  left: 639px;
 }
 
 .team-card {
@@ -125,10 +153,16 @@
 
 .portfolio-item {
   background-color: #ffffff;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 20px;          
+  margin-bottom: 20px;           
 }
 
 .page-footer {
   background-color: #2e2f42;
+  width: 1440;
+  height: 312;
+  top: 2988px;
 }
 
 .footer-text {
@@ -141,4 +175,140 @@
 
 ul {
   list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1158px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-main {
+  margin-bottom: 20px;
+}
+
+.features {
+  width: 1128;
+  height: 104;
+  top: 792px;
+  left: 156px;
+}
+
+.team-card.one {
+  width: 264;
+  height: 380;
+  top: 1248px;
+  left: 156px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-bottom: 32px;
+  gap: 32px;
+}
+
+.team-card.two {
+  width: 264;
+  height: 380;
+  top: 1248px;
+  left: 444px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-bottom: 32px;
+  gap: 32px;
+}
+
+.team-card.three {
+  width: 264;
+  height: 380;
+  top: 1248px;
+  left: 732px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-bottom: 32px;
+  gap: 32px;
+}
+
+.team-card.four {
+  width: 264;
+  height: 380;
+  top: 1248px;
+  left: 1020px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-bottom: 32px;
+  gap: 32px;
+}
+
+.portfolio {
+  width: 1128;
+  height: 1000;
+  top: 1868px;
+  left: 156px;
+  border-width: 1px;
+}  
+
+.portfolio-item.item-banking {
+  width: 360;
+  height: 420;
+  top: 1980px;
+  left: 156px;
+}
+
+.portfolio-item.item-cashless {
+  width: 360;
+  height: 420;
+  top: 1980px;
+  left: 540px;
+  border-width: 1px;
+}
+
+.portfolio-items.item-meditation {
+  width: 360;
+  height: 420;
+  top: 1980px;
+  left: 924px;
+}
+
+.portfolio-item.item-taxi {
+  width: 360;
+  height: 420;
+  top: 2448px;
+  left: 156px;
+}
+
+.portfolio-item.item-screen {
+  width: 360;
+  height: 420;
+  top: 2448px;
+  left: 540px;
+}
+
+.portfolio-item.item-courses {
+  width: 360;
+  height: 420;
+  top: 2448px;
+  left: 924px;
+}
+
+footer {
+  width: 1440;
+  height: 312;
+  top: 2988px;
 }
